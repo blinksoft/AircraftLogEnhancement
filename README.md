@@ -24,4 +24,4 @@ reporting on the Aircraft Log report under Support -> Reports -> Aircraft Log.
 
 ## How to install
 
-<a href="https://https://blinksoft.github.io/AircraftLogEnhancement/CapAircraftLog.user.js" class="w3-button w3-black">Click to install script X</a>
+<a href="https://blinksoft.github.io/AircraftLogEnhancement/CapAircraftLog.user.js" class="w3-button w3-black">Click to install script X</a>
