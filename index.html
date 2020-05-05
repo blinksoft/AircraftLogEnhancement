@@ -1,0 +1,31 @@
+<h1 id="cap-aircraft-log-enhancement">CAP Aircraft Log Enhancement</h1>
+<p>Tampermonkey script to enhance CAP Aircraft Logs in WMIRS 2.0.  </p>
+<p>This script is designed to run in TamperMonkey and will add addtional data collection options and error
+    reporting on the Aircraft Log report under Support -&gt; Reports -&gt; Aircraft Log. </p>
+<h2 id="what-does-it-do">What does it do</h2>
+<h3 id="error-checking">Error Checking</h3>
+<ul>
+    <li>Highlighted context of out incorrect Tach/Hobbs Times<ul>
+        <li>If the End Time is not the next Sortie&#39;s start time it is highlighted red on both sorties. </li>
+    </ul>
+    </li>
+    <li>Subtraction Test<ul>
+        <li>Currently the Total time on the page is a summation of all of the data in the table, if there
+            are errors in the page subtracting the First Sortie Start Time from the Last Sortie End Time does not
+            equal the time they have show at the bottom of the table.   We add an additional summary row, showing the
+            subtraction time.   If their total does not match our total it is highlighted red. </li>
+    </ul>
+    </li>
+</ul>
+<h3 id="data-collection">Data Collection</h3>
+<ul>
+    <li>Enables exporting of aircraft log data to CSV file</li>
+    <li>Enables gathering all logs for all aircraft in your wing, and exporting to csv. </li>
+    <li>Enables an Start/End Date model<ul>
+        <li>To gather all of logs about a specific aircraft and display/export it.</li>
+        <li>To gather all of the aircraft for a wing and display/export it. </li>
+    </ul>
+    </li>
+</ul>
+<h2 id="how-to-install">How to install</h2>
+<p><a href="https://blinksoft.github.io/AircraftLogEnhancement/CapAircraftLog.user.js" class="w3-button w3-black">Click to install script</a></p>
